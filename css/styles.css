@@ -1,4 +1,63 @@
 /*HEADER styles*/
-nav, header, .nav {
+.navbar-inverse {
   background-color: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgba(51, 51, 51, .5);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #fff;
+  text-shadow: 1px 1px 2px #333;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: rgba(51, 51, 51, .25);
+  color: #F8512F; /*Base Orange*/
+  
+}
+
+/*Carousel Styles*/
+.item {
+  height: 425px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-flex {
+  height: 425px;/*or 100%*/
+  display: flex;
+  align-items: center;
+}
+
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#carousel-logo {
+  height: 250px;
+}
+
+#seating-background {
+  background-image: url('../img/restaurant-2.jpg');
+}
+
+#farm-background {
+  background-image: url('../img/farm-2.jpg');
+}
+
+.carousel-caption {
+  margin-bottom: 45px;  
+}
+
+button.btn-warning {
+  background-color: #F8512F;
+  border-color: #F8512F;
+}
+
+button.btn-warning:hover {
+  background-color: #D34326;
+  border-color: #D34326
 }
