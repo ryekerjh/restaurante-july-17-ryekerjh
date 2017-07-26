@@ -1,3 +1,6 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Playfair+Display:900');
+
 /*HEADER styles*/
 .navbar-inverse {
   background-color: transparent;
@@ -60,4 +63,32 @@ button.btn-warning {
 button.btn-warning:hover {
   background-color: #D34326;
   border-color: #D34326
+}
+
+/*Our Story Styles*/
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+
+#our-story {
+  margin: 10% auto;
+}
+
+#our-story .lobster-text {
+  color: #F8512F;
+  text-shadow: 1px 1px 2px #313;
+  font-size: 5em;
+}
+
+#our-story h3 {
+  margin-top: 0px;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  position: absolute;
+  z-index: 0;
+  color: rgba(51, 51, 51, .1);
+  font-size: 170px;
 }
