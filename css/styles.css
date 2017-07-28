@@ -129,3 +129,32 @@ button.btn-warning:hover {
   text-shadow: 1px 1px 2px #333;
   font-weight: 300;
 }
+
+/*Menu styles*/
+#menu {
+  background-image: url('../img/black_linen.png');
+  height: 600px;
+}
+
+#menu h1 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
+}
+
+.food {
+  background-color: #fff;
+  height: 425px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu a {
+  color: #F8512F;
+  text-transform: uppercase;
+}
+
+.nav-tabs.nav-justified>.active>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
+}
